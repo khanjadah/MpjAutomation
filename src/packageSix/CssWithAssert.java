@@ -103,6 +103,9 @@ public class CssWithAssert {
 	    //Css rule   5      #(attribute value		
 	    driver.findElement(By.cssSelector("#newsletter")).click();
 	    System.out.println(driver.findElement(By.cssSelector("#newsletter")).isSelected()+"   > successfully selected ");
+	    
+	    
+	   //Css rule   4      .class-value.class-value..... *if multiple value of class with spaces							
 	    driver.findElement(By.xpath("//*[@type='checkbox' and @name='optin' or @id='optin']")).click();//rule no-10
 		
 	    driver.close();
