@@ -34,7 +34,7 @@ public class CssWithAssert {
 		System.out.println("----------------------------------------------------");
 		
 		
-		//Css rule   3     tagname.(class-value)			
+//		Css rule   3     tagname.(class-value)			
 		driver.findElement(By.cssSelector("#SubmitCreate")).click();
 //	    System.out.println(driver.findElement(By.cssSelector("#SubmitCreate)")).is+" >  Select button is successfully Selected");
 //		System.out.println(driver.findElement(By.cssSelector("#SubmitCreate)")).isEnabled()+" >  Select button is successfully Enabled");

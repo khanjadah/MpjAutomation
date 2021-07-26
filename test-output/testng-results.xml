@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31598" started-at="2021-07-25T12:58:27 EDT" finished-at="2021-07-25T12:58:58 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31598" started-at="2021-07-25T12:58:27 EDT" finished-at="2021-07-25T12:58:58 EDT">
+      <class name="packageSix.TestNGClass">
+        <test-method status="PASS" signature="setup()[pri:0, instance:packageSix.TestNGClass@cd2dae5]" name="setup" is-config="true" duration-ms="4272" started-at="2021-07-25T12:58:27 EDT" finished-at="2021-07-25T12:58:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:packageSix.TestNGClass@cd2dae5]" name="openurl" duration-ms="2147" started-at="2021-07-25T12:58:31 EDT" finished-at="2021-07-25T12:58:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="signin()[pri:1, instance:packageSix.TestNGClass@cd2dae5]" name="signin" duration-ms="1046" started-at="2021-07-25T12:58:33 EDT" depends-on-methods="packageSix.TestNGClass.openurl" finished-at="2021-07-25T12:58:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="enteremail()[pri:2, instance:packageSix.TestNGClass@cd2dae5]" name="enteremail" duration-ms="327" started-at="2021-07-25T12:58:34 EDT" finished-at="2021-07-25T12:58:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteremail -->
+        <test-method status="PASS" signature="enteremail()[pri:2, instance:packageSix.TestNGClass@cd2dae5]" name="enteremail" duration-ms="165" started-at="2021-07-25T12:58:34 EDT" finished-at="2021-07-25T12:58:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteremail -->
+        <test-method status="PASS" signature="enteremail()[pri:2, instance:packageSix.TestNGClass@cd2dae5]" name="enteremail" duration-ms="160" started-at="2021-07-25T12:58:35 EDT" finished-at="2021-07-25T12:58:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteremail -->
+        <test-method status="PASS" signature="clicksubmit()[pri:3, instance:packageSix.TestNGClass@cd2dae5]" name="clicksubmit" duration-ms="61" started-at="2021-07-25T12:58:35 EDT" depends-on-methods="packageSix.TestNGClass.enteremail" finished-at="2021-07-25T12:58:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksubmit -->
+        <test-method status="PASS" signature="personalinfo()[pri:4, instance:packageSix.TestNGClass@cd2dae5]" name="personalinfo" duration-ms="2068" started-at="2021-07-25T12:58:35 EDT" depends-on-methods="packageSix.TestNGClass.clicksubmit" finished-at="2021-07-25T12:58:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalinfo -->
+        <test-method status="PASS" signature="selectdays()[pri:5, instance:packageSix.TestNGClass@cd2dae5]" name="selectdays" duration-ms="20591" started-at="2021-07-25T12:58:37 EDT" finished-at="2021-07-25T12:58:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectdays -->
+        <test-method status="PASS" signature="company()[pri:6, instance:packageSix.TestNGClass@cd2dae5]" name="company" duration-ms="337" started-at="2021-07-25T12:58:58 EDT" finished-at="2021-07-25T12:58:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- company -->
+        <test-method status="PASS" signature="mobilephone()[pri:7, instance:packageSix.TestNGClass@cd2dae5]" name="mobilephone" duration-ms="148" started-at="2021-07-25T12:58:58 EDT" finished-at="2021-07-25T12:58:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilephone -->
+        <test-method status="PASS" signature="close()[pri:0, instance:packageSix.TestNGClass@cd2dae5]" name="close" is-config="true" duration-ms="216" started-at="2021-07-25T12:58:58 EDT" finished-at="2021-07-25T12:58:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- packageSix.TestNGClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
